@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Loja</title>
+    <style>
+        .error { color: red; }
+    </style>
+</head>
+<body>
+    <h1>Formulário de Cadastro de Loja</h1>
+    <form id="lojaForm">
+        <label for="nomeLoja">Nome da Loja:</label>
+        <input type="text" id="nomeLoja" name="nomeLoja"><br><br>
+
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" name="cidade"><br><br>
+
+        <label for="vendas">Valor Total Vendido no Mês:</label>
+        <input type="number" id="vendas" name="vendas"><br><br>
+
+        <button type="submit">Cadastrar Loja</button>
+    </form>
+    <button id="recarregar" hidden>Atualizar pagina</button>
+    <p id="message" class="error"></p>
+
+    <script src="atividade3e4.js"></script>
+</body>
+</html>
